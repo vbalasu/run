@@ -8,8 +8,10 @@ Works even for invalid commands and arguments
 ## Examples
 
 ## Node JS
-```var r = require('./run.js')
-r.run(['dir', '/b']).then(function(result){console.log(result)})```
+```
+var r = require('./run.js')
+r.run(['dir', '/b']).then(function(result){console.log(result)})
+```
 
 Output: ```{ command: [ 'dir', '/b' ],
   exitcode: 0,
