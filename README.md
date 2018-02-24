@@ -9,9 +9,7 @@ Works even for invalid commands and arguments
 
 ## Node JS
 `var r = require('./run.js')
-
-r.run(['dir', '/b']).then(function(result){console.log(result)})
-`
+r.run(['dir', '/b']).then(function(result){console.log(result)})`
 
 Output: `{ command: [ 'dir', '/b' ],
   exitcode: 0,
