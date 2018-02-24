@@ -7,6 +7,18 @@ Works even for invalid commands and arguments
 
 ## Examples
 
+## Node JS
+`var r = require('./run.js')
+r.run(['dir', '/b']).then(function(result){console.log(result)})
+`
+
+Output: `{ command: [ 'dir', '/b' ],
+  exitcode: 0,
+  stdout: 'example.txt\r\nREADME.md\r\nrun.js\r\n',
+  stderr: '' }`
+
+## Command Line
+
 ### Shell Command
 Command: `node run.js dir`
 
