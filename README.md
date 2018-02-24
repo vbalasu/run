@@ -8,13 +8,13 @@ Works even for invalid commands and arguments
 ## Examples
 
 ## Node JS
-`var r = require('./run.js')
-r.run(['dir', '/b']).then(function(result){console.log(result)})`
+```var r = require('./run.js')
+r.run(['dir', '/b']).then(function(result){console.log(result)})```
 
-Output: `{ command: [ 'dir', '/b' ],
+Output: ```{ command: [ 'dir', '/b' ],
   exitcode: 0,
   stdout: 'example.txt\r\nREADME.md\r\nrun.js\r\n',
-  stderr: '' }`
+  stderr: '' }```
 
 ## Command Line
 
